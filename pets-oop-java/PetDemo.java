@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import Pet.Cat;
+import Pet.Fish;
+import Pet.Parrot;
+import Pet.Pet;
+
 public class PetDemo {
     public static void main(String[] args) {
         System.out.println("=== ДЕМОНСТРАЦИЯ ИЕРАРХИИ КЛАССОВ ДОМАШНИХ ЖИВОТНЫХ ===\n");
@@ -125,9 +130,9 @@ public class PetDemo {
         System.out.println("-".repeat(70));
         System.out.println("\n9. РАБОТА С ПОПУГАЕМ:");
         Parrot smartParrot = new Parrot("Умник", 1, 0.35, "Синий");
-        smartParrot.learnWord("Java");
-        smartParrot.learnWord("Программирование");
-        smartParrot.learnWord("ООП");
+        smartParrot.learnWord("Умник");
+        smartParrot.learnWord("БУ испугался");
+        smartParrot.learnWord("я добрый");
         smartParrot.displayInfo();
         
         System.out.println("\nПопугай демонстрирует словарный запас:");

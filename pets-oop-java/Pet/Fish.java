@@ -1,3 +1,4 @@
+package Pet;
 public class Fish extends Pet {
     private String waterType; 
     private int memoryDuration; 

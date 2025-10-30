@@ -1,5 +1,5 @@
- 
- public class Cat extends Pet {
+package Pet;
+public class Cat extends Pet {
     private String color;
     private int miceCaught;
     
