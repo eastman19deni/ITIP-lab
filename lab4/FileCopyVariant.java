@@ -2,7 +2,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileCopyVariant2 {
+public class FileCopyVariant {
     public static void main(String[] args) {
         String sourceFile = "source.txt";
         String destinationFile = "destination.txt";
