@@ -4,8 +4,8 @@ public class NumberFinder {
     public static void main(String[] args) {
         try {
             String text = "The price of the product is $19.99, there are 42 items, and temperature is -3.5 degrees.";
-            Pattern pattern = Pattern.compile("-?\\d+\\.?\\d*");
-            Matcher matcher = pattern.matcher(text);
+            Pattern pattern = Pattern.compile("-?\\d+\\.?\\d*");//регулярные выражения 
+            Matcher matcher = pattern.matcher(text); // поиск совпадений 
             
             System.out.println("Найденные числа:");
             while (matcher.find()) {
