@@ -8,8 +8,8 @@ public class PasswordValidator {
         try {
             System.out.print("Введите пароль: ");
             String password = scanner.nextLine();
-            
-            String regex = "^(?=.*[A-Z])(?=.*[А-Я])(?=.*\\d)([A-Za-z\\d]{8,16})([А-Яа-я\\d]{8,16})$";
+
+            String regex = "^(?=.*[A-Z])(?=.*\\d)([A-Za-z\\d]{8,16})$";
             Pattern pattern = Pattern.compile(regex);
             Matcher matcher = pattern.matcher(password);
             
