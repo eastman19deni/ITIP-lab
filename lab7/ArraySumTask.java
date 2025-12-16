@@ -1,4 +1,3 @@
-package lab7;
 import java.util.Random;
 
 public class ArraySumTask {

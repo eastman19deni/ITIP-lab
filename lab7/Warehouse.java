@@ -1,5 +1,3 @@
-package lab7;
-
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -117,7 +115,7 @@ class Loader extends Thread {
                 }
                 
                 // Небольшая задержка для имитации работы
-                Thread.sleep(100);
+                Thread.sleep(1000);
                 
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
